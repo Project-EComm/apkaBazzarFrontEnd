@@ -8,7 +8,6 @@ import moment from "moment";
 const Orders = () => {
   const [auth] = useAuth();
   const [orders, setOrders] = useState([]);
-  const [status, setStatus] = useState("");
 
   useEffect(() => {
     // Function to fetch orders
@@ -57,7 +56,6 @@ const Orders = () => {
         "https://e-comm-2uyq.onrender.com/api/v1/auth/orders"
       );
       setOrders(response.data);
-      setStatus(status);
     } catch (error) {
       // Handle error if API call fails
       console.error("Error updating order status:", error);
