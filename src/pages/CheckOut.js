@@ -3,7 +3,7 @@ import { useCart } from "../context/cart";
 import { useAuth } from "../context/auth";
 import { NavLink, useNavigate } from "react-router-dom";
 import { LuIndianRupee } from "react-icons/lu";
-import { toast, Zoom } from "react-toastify";
+import { toast} from "react-toastify";
 import axios from "axios";
 
 const CheckOut = () => {
