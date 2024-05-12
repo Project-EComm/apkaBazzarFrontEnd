@@ -5,9 +5,7 @@ import { NavLink, useNavigate } from "react-router-dom";
 
 const YourOrder = (props) => {
   const [auth, setAuth] = useAuth();
-  const [orders, setOrders] = useState([]);
   const navigate = useNavigate();
-  console.log(orders);
 
   const handleLogout = () => {
     setAuth({
