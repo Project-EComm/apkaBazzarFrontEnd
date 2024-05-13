@@ -264,7 +264,7 @@ function Header(props) {
             <img src={logo} alt="logo" style={{ width: "40px" }} /> apkaBazzar
           </NavLink>
         </div>
-        <div className="d-flex hoverbg">
+        <div className="d-none d-lg-flex hoverbg">
           <FaLocationDot
             style={{
               marginTop: "15px",
