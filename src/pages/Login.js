@@ -216,7 +216,7 @@ const Login = (props) => {
                     className="btn btn-primary btn-block py-2 btnEnter"
                   >
                     <span className="font-weight-bold">
-                      Create your account
+                      Login
                     </span>
                   </button>
                 </div>
