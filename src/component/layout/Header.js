@@ -337,7 +337,7 @@ function Header(props) {
             </span>
           </form>
         </div>
-        <div className="dropdown ms-3 d-none d-lg-flex">
+        <div className="dropdown ms-3 d-none">
           <NavLink
             className="dropbtn"
             style={{
