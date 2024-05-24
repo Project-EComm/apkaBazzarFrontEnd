@@ -53,6 +53,10 @@ const CheckOut = () => {
         orderData
       );
 
+      // Reset the cart
+      setCart([]);
+      localStorage.removeItem("cart");
+      
       // Handle success
       toast.success(response.data.message);
       navigate("/");
