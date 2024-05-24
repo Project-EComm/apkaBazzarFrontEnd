@@ -8,7 +8,7 @@ import axios from "axios";
 
 const CheckOut = () => {
   const [auth] = useAuth();
-  const [cart] = useCart();
+  const [cart, setCart] = useCart();
   const [shippingCost, setShippingCost] = useState(0);
   const [deliveryTypeName, setDeleveryTypeName] = useState(""); // Fixed typo in state name
   const navigate = useNavigate();
